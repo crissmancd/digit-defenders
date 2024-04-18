@@ -11,6 +11,11 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --light-blue: #00FFF4;
+  --dark-blue: #007A9E;
+  --orange: #FF6D00;
+  --black: #222222;
 }
 
 a {
@@ -33,6 +38,10 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+img {
+  max-width: 100%;
 }
 
 button {
